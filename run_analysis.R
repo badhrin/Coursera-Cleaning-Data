@@ -1,7 +1,6 @@
 
 # Set the Working Directory to the UCI HAR Dataset directory (as downloaded without changing the folder structure) - this is a prerequisite
 <<<<<<< HEAD
-setwd("D:\\Learning\\Coursera\\Cleaning Data\\wdir\\ProjectAssgn\\UCI HAR Dataset")
 
 # Load required packages. This requires these packages to be installed already
 library(dplyr)
