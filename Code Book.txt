@@ -1,0 +1,120 @@
+SOURCE
+The source data for this dataset comes from the folder downloaded at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The details of data in this source dataset can be found in the features_info.txt within the same dataset.
+
+Specific source files utilized to create this dataset:
+	features.txt
+	activity_labels.txt
+	subject_train.txt
+	subject_test.txt
+	X_train.txt
+	X_test.txt
+	y_train.txt
+	y_test.txt
+
+TRANSFORMATIONS:
+The source data set was collated to create a single dataset containing all the 'Training' & 'Test' data points.
+Only the measurements on the mean and standard deviation for each measurement were extracted. All other measurements were discarded.
+Descriptive activity names were used instead of the numbers designating each activity in the data set
+Each column in the dataset was provided descriptive variable names
+The average of each variable for each activity and each subject over the entire set of measurements was calculated
+
+DATA DICTIONARY
+Activity - This is a description of the activities performed by each subject. It contains simple English words.
+
+Subject - This is a numerical column with values ranging from 1 to 30. Each number represents one subject i.e. one person who was part of the experiment. Therefore each number can be considered as being a proxy for the individual's name.
+
+The average of each variable for each activity and each subject over the entire set of measurements was calculated, to produce the below listed variables. The prefix "mean_" indicates that these are average values from the source data set.
+mean_tBodyAcc-mean()-X
+mean_tBodyAcc-mean()-Y
+mean_tBodyAcc-mean()-Z
+mean_tGravityAcc-mean()-X
+mean_tGravityAcc-mean()-Y
+mean_tGravityAcc-mean()-Z
+mean_tBodyAccJerk-mean()-X
+mean_tBodyAccJerk-mean()-Y
+mean_tBodyAccJerk-mean()-Z
+mean_tBodyGyro-mean()-X
+mean_tBodyGyro-mean()-Y
+mean_tBodyGyro-mean()-Z
+mean_tBodyGyroJerk-mean()-X
+mean_tBodyGyroJerk-mean()-Y
+mean_tBodyGyroJerk-mean()-Z
+mean_tBodyAccMag-mean()
+mean_tGravityAccMag-mean()
+mean_tBodyAccJerkMag-mean()
+mean_tBodyGyroMag-mean()
+mean_tBodyGyroJerkMag-mean()
+mean_fBodyAcc-mean()-X
+mean_fBodyAcc-mean()-Y
+mean_fBodyAcc-mean()-Z
+mean_fBodyAcc-meanFreq()-X
+mean_fBodyAcc-meanFreq()-Y
+mean_fBodyAcc-meanFreq()-Z
+mean_fBodyAccJerk-mean()-X
+mean_fBodyAccJerk-mean()-Y
+mean_fBodyAccJerk-mean()-Z
+mean_fBodyAccJerk-meanFreq()-X
+mean_fBodyAccJerk-meanFreq()-Y
+mean_fBodyAccJerk-meanFreq()-Z
+mean_fBodyGyro-mean()-X
+mean_fBodyGyro-mean()-Y
+mean_fBodyGyro-mean()-Z
+mean_fBodyGyro-meanFreq()-X
+mean_fBodyGyro-meanFreq()-Y
+mean_fBodyGyro-meanFreq()-Z
+mean_fBodyAccMag-mean()
+mean_fBodyAccMag-meanFreq()
+mean_fBodyBodyAccJerkMag-mean()
+mean_fBodyBodyAccJerkMag-meanFreq()
+mean_fBodyBodyGyroMag-mean()
+mean_fBodyBodyGyroMag-meanFreq()
+mean_fBodyBodyGyroJerkMag-mean()
+mean_fBodyBodyGyroJerkMag-meanFreq()
+mean_angle(tBodyAccMean
+gravity)
+mean_angle(tBodyAccJerkMean)
+gravityMean)
+mean_angle(tBodyGyroMean
+gravityMean)
+mean_angle(tBodyGyroJerkMean
+gravityMean)
+mean_angle(X
+gravityMean)
+mean_angle(Y
+gravityMean)
+mean_angle(Z
+gravityMean)
+mean_tBodyAcc-std()-X
+mean_tBodyAcc-std()-Y
+mean_tBodyAcc-std()-Z
+mean_tGravityAcc-std()-X
+mean_tGravityAcc-std()-Y
+mean_tGravityAcc-std()-Z
+mean_tBodyAccJerk-std()-X
+mean_tBodyAccJerk-std()-Y
+mean_tBodyAccJerk-std()-Z
+mean_tBodyGyro-std()-X
+mean_tBodyGyro-std()-Y
+mean_tBodyGyro-std()-Z
+mean_tBodyGyroJerk-std()-X
+mean_tBodyGyroJerk-std()-Y
+mean_tBodyGyroJerk-std()-Z
+mean_tBodyAccMag-std()
+mean_tGravityAccMag-std()
+mean_tBodyAccJerkMag-std()
+mean_tBodyGyroMag-std()
+mean_tBodyGyroJerkMag-std()
+mean_fBodyAcc-std()-X
+mean_fBodyAcc-std()-Y
+mean_fBodyAcc-std()-Z
+mean_fBodyAccJerk-std()-X
+mean_fBodyAccJerk-std()-Y
+mean_fBodyAccJerk-std()-Z
+mean_fBodyGyro-std()-X
+mean_fBodyGyro-std()-Y
+mean_fBodyGyro-std()-Z
+mean_fBodyAccMag-std()
+mean_fBodyBodyAccJerkMag-std()
+mean_fBodyBodyGyroMag-std()
+mean_fBodyBodyGyroJerkMag-std()
