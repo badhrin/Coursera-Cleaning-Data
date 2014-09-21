@@ -24,7 +24,7 @@ Activity - This is a description of the activities performed by each subject. It
 
 Subject - This is a numerical column with values ranging from 1 to 30. Each number represents one subject i.e. one person who was part of the experiment. Therefore each number can be considered as being a proxy for the individual's name.
 
-The average of each variable for each activity and each subject over the entire set of measurements was calculated, to produce the below listed variables. The prefix "mean_" indicates that these are average values from the source data set.
+The average of each variable for each activity and each subject over the entire set of measurements was calculated, to produce the below listed variables. The prefix "mean_" indicates that these are average values from the source data set. For more information on each of the original variables, please refer to the features_info.txt in the source dataset.
 mean_tBodyAcc-mean()-X
 mean_tBodyAcc-mean()-Y
 mean_tBodyAcc-mean()-Z
